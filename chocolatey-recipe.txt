@@ -1,58 +1,38 @@
-# source control tools
+# Work / source control tools
 choco install winmerge
 choco install git -params '"/GitAndUnixToolsOnPath"'
+choco install p4v
 #  cmder comes with git
-#choco install Cmder  
+choco install Cmder  
 choco install hyper
 choco install sourcetree
+choco install virtualbox
+choco install wireshark
 
-# webdev
-choco install fiddler4
-choco install filezilla
-choco install nodejs.install 
-choco install prefix
+# dev
+choco install miniconda3 --params="'/AddToPath=1' /D=C:\conda\ /RegisterPython=1"
+choco install vscode
+choco install notepadplusplus
 
 # utilities
-choco install  putty 
-choco install skype 
-choco install f.lux  
-choco install dotPeek
-choco install ilmerge
-choco install NugetPackageExplorer
+choco install 7zip
+choco install putty
+choco install bat
+choco install f.lux
 choco install paint.net
-#choco install PngGauntlet  #this package required manual entry
 choco install astrogrep
-choco install vagrant
-choco install greenshot
 choco install freemind
-choco install scriptcs
 choco install autohotkey.portable
-choco install zoomit
+choco install zerotier-one
 choco install licecap
-choco install vlc
-choco install inkscape #SVG editor
-
-#languages
-choco install elixir
-
-# editors
-choco install visualstudio2015community
-#choco install resharper
-#choco install WebStorm
-choco install pycharm-community
-choco install notepadplusplus
-choco install atom
-choco install visualstudiocode
+choco install autoruns
+choco install procexp
+choco install ditto
+choco install freecommander-xe.install
 
 # browsers
 choco install google-chrome-x64
 choco install Firefox
 
-Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
+#Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives  -EnableShowFileExtensions -EnableShowFullPathInTitleBar
-
-# other not on chocolately
-# http://azurestorageexplorer.codeplex.com/
-# icons - https://www.syncfusion.com/downloads/metrostudio
-# view andriod - http://www.vysor.io/
-# OWASP ZAP https://github.com/zaproxy/zaproxy/wiki/Downloads
