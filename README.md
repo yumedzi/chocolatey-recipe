@@ -10,8 +10,9 @@ Set of scripts / recipes for a new computer setup using:
 
 ### Choco install
 
-1. Install Chocolatey
-2. Run [choco_install_all.bat](choco_install_all.bat) in cmd.
+1. Install Chocolatey (run in *Admin Powershell*):
+  * `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+2. Run [choco_install_all.bat](choco_install_all.bat) in cmd/powershell.
 
 ### Boxstarter
 
