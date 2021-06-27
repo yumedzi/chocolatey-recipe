@@ -1,11 +1,21 @@
-chocolatey-recipe
+# Chocolatey recipes
 =================
 
-A [Boxstarter](http://boxstarter.org/)/[Chocolatey](https://chocolatey.org/) script for installing and updating all my development tools on a new windows box. 
+Set of scripts / recipes for a new computer setup using:
 
-Walk through is located at [Chocolatey and Boxstarter post.](http://www.jamessturtevant.com/posts/Chocolatey-And-Boxstarter/)
+* [Chocolatey](https://chocolatey.org/) - works with remote OK
+* [Boxstarter](http://boxstarter.org/) - option that doesn't work well with remote
+
+## Setups:
+
+### Choco install
+
+1. Install Chocolatey
+2. Run choco_install_all.bat in cmd.
+
+### Boxstarter
 
 Use:
-  1. Download and run RunBoxstarterInstall.bat (only works with IE)
+  1. Download and run RunBoxstarterInstall.bat.
   2. This will launch a download for an executable. 
   2. Run the executable it will download, install, and configure all programs in chocolatey-recipe.txt
