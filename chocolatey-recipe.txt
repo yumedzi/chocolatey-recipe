@@ -18,7 +18,8 @@ choco install notepadplusplus
 choco install 7zip
 choco install putty
 choco install bat
-choco install f.lux
+#choco install f.lux
+choco install lightbulb
 choco install paint.net
 choco install astrogrep
 choco install freemind
@@ -29,6 +30,7 @@ choco install autoruns
 choco install procexp
 choco install ditto
 choco install freecommander-xe.install
+
 
 # browsers
 choco install google-chrome-x64
